@@ -6,7 +6,7 @@ start_path = ARGV[0]
 
 # Install bundle
 Dir.chdir(start_path)
-puts `bundle`
+`bundle`
 
 # Find all gem paths
 bundle_gems_path = 'vendor/bundle/gems'
